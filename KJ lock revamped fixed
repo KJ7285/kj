@@ -1,0 +1,52 @@
+local Library = loadstring(game:HttpGet("https://raw.githubusercontent.com/bloodball/-back-ups-for-libs/main/cat"))() --you can go into the github link and copy all of it and modify it for yourself.
+local Window = Library:CreateWindow("KJ.CC GUI", Vector2.new(300, 300), Enum.KeyCode.RightControl) --you can change your UI keybind
+local AimingTab = Window:CreateTab("Tab 1") --you can rename this tab to whatever you want --you can also change the tabs code, for example "AimingTab" can be changed to "FunnyCoolTab" etc.
+
+
+local testSection = AimingTab:CreateSector("section", "left")  --you can  change the section code, for example "testsection" can be changed to "FunnyCoolSection" etc.
+
+
+testSection:AddButton("KJ LOCK PAID", function(IhateGayPeople)
+    loadstring(game:HttpGet("https://raw.githubusercontent.com/KJ7285/KJ-REVAMPED-FIXED/main/KJ%20REVAMPED%20FIXED"))()
+end)
+
+testSection:AddButton("rightclick", function(IhateGayPeopl)
+    loadstring(game:HttpGet('https://raw.githubusercontent.com/BalligusapoTT/BalligusapoTT/main/Leftclickballi'))()
+end)
+
+testSection:AddButton("kj Camlock", function(IhateGayPeop)
+    loadstring(game:HttpGet("https://raw.githubusercontent.com/KJ7285/KJ-CAMLOCKTOOL-/main/Camlock"))()
+end)
+
+testSection:AddButton("tpwalk", function(IhateGayPeo)
+    -- Tpwalk V4 [ BETA ]
+loadstring(game:HttpGet("https://raw.githubusercontent.com/TheRealXORA/Roblox-Scripts/main/Tpwalk%20V4%20%5B%20BETA%20%5D.lua", true))()
+end)
+
+testSection:AddButton("slient aim blue", function(IhateGayPeo)
+    getgenv().Silent = {
+    Settings = {
+        Enabled = true,
+        AimPart = "UpperTorso",
+        Prediction = 0.144627,
+        WallCheck = true,
+        Visualize = true,
+        AutoPrediction = false,
+    },
+    FOV = {
+        Enabled = true,
+        Size = 35, -- Updated size value
+        Filled = false,
+        Thickness = 0.66,
+        Transparency = 0.9,
+        Color = Color3.fromRGB(0, 0, 255), -- Blue color
+    },
+}
+loadstring(game:HttpGet("https://raw.githubusercontent.com/CyberPlaysYT/Aura-x/main/Source", true))()
+
+end)
+
+
+ToggleBind:AddKeybind()
+
+AimingTab:CreateConfigSystem("right") --this is the config system
